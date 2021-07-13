@@ -1,0 +1,32 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+div
+{
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #990000;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width:786px)
+{
+    div
+    {
+        background-color: #999000;
+    }
+}
+@media screen and (max-width:540px)
+{
+    div
+    {
+        background-color: #000399;
+        border-radius:none;
+    }
+}
